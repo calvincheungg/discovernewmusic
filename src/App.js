@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+    var Spotify = require('spotify-web-api-js');
+    var s = new Spotify();
   return (
     <div className="App">
       <header className="App-header">
